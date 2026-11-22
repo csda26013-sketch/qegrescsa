@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>青いサメの自己紹介</title>
+  <style>
+    /* 全体の基本設定 */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #ffffff; /* 背景色：白 */
+      color: #333333;            /* 文字の色：濃いグレー */
+      line-height: 1.7;
+    }
+
+    /* ページ全体の幅と余白（広い画面でも狭い画面でもはみ出さない設定） */
+    .container {
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 20px 16px;
+    }
+
+    /* ヘッダー（タイトルとページ内メニュー） */
+    header {
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      margin: 0 0 12px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #0056b3;
+      background-color: #f4f7fa;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      background-color: #e2ecf5;
+    }
+
+    /* 各セクションの枠組み */
+    section {
+      background-color: #ffffff;
+      border: 1px solid #dddddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 0;
+      margin-bottom: 12px;
+      border-left: 4px solid #333333;
+      padding-left: 10px;
+    }
+
+    p {
+      margin: 0 0 12px 0;
+      overflow-wrap: break-word;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* リンクの見た目 */
+    a.external-link {
+      color: #0056b3;
+      word-break: break-all;
+    }
+
+    /* フッター */
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #666666;
+      margin-top: 32px;
+      padding-top: 16px;
+      border-top: 1px solid #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>青いサメの自己紹介</h1>
+      <nav aria-label="ページ内メニュー">
+        <ul>
+          <li><a href="#intro">自己紹介</a></li>
+          <li><a href="#learning">今学んでいること</a></li>
+          <li><a href="#future">これからやってみたいこと</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="intro">
+        <h2>自己紹介</h2>
+        <p>初めまして、大学1年生の青いサメです。現在は塾の受付バイトをやっています。</p>
+      </section>
+
+      <section id="learning">
+        <h2>今学んでいること</h2>
+        <p>今は大学では情報系の内容を学んでおりバイトでは電話応対や事務作業を学んでいます。</p>
+      </section>
+
+      <section id="future">
+        <h2>これからやってみたいこと</h2>
+        <p>子供からの問題の質問に対し、答えられるようになることがこれからやってみたいことです。</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>参考リンク：<a class="external-link" href="https://www.amazon.co.jp/" target="_blank" rel="noopener noreferrer">amazon</a></p>
+    </footer>
+  </div>
+
+</body>
+</html>
